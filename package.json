@@ -1,5 +1,5 @@
 {
-  "name": "scanner-test2",
+  "name": "scanner-test",
   "version": "1.0.0",
   "dependencies": {
     "immer": "9.0.5"
