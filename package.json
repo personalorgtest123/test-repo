@@ -4,20 +4,6 @@
   "description": "Test app to simulate security scanner findings",
   "dependencies": {
     "immer": "9.0.5",
-    "json5": "2.2.1",
-    "lodash": "4.17.19",
-    "minimist": "0.2.8",
-    "kind-of": "6.0.2",
-    "debug": "2.6.8",
-    "hoek": "4.2.0",
-    "morgan": "1.9.0",
-    "moment": "2.18.1",
-    "axios": "0.21.1",
-    "handlebars": "4.7.6",
-    "underscore": "1.7.0",
-    "jquery": "3.4.0",
-    "marked": "0.3.6",
-    "serialize-javascript": "2.1.1",
-    "express": "4.16.0"
+    "json5": "2.2.1"
   }
 }
