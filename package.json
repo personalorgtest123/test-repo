@@ -5,6 +5,7 @@
   "dependencies": {
     "immer": "9.0.5",
     "json5": "2.2.1",
-    "express": "4.16.0"
+    "express": "4.16.0",
+    "lodash": "4.17.19"
   }
 }
