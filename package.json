@@ -1,7 +1,9 @@
 {
-  "name": "scanner-tes2t",
+  "name": "vulnerability-test",
   "version": "1.0.0",
+  "description": "Test app for security scanners",
   "dependencies": {
-    "immer": "9.0.5"
+    "immer": "9.0.5",     // Vulnerable to GHSA-7f8r-222p-6f5g
+    "json5": "2.2.1"       // Vulnerable to GHSA-rq9r-qvwg-829q
   }
 }
