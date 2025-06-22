@@ -1,5 +1,5 @@
 {
-  "name": "vulnerability-simulation",
+  "name": "vulnerability-simulation2",
   "version": "1.0.0",
   "description": "Test app to simulate security scanner findings",
   "dependencies": {
