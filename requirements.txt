@@ -1,5 +1,5 @@
 # Critical Severity
-requests==2.19.1  # CVE-2018-18074 (RCE) 
+requests==2.19.1  # CVE-2018-18074 (RCE)
 
 
 pyyaml==5.1       # CVE-2020-14343 (Code Execution)
