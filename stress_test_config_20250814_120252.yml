@@ -1,0 +1,105 @@
+# Configuration file with hardcoded secrets
+database:
+  production:
+    host: prod-db.example.com
+    username: admin
+    password: super_secret_prod_password_123
+    port: 5432
+  staging:
+    host: staging-db.example.com
+    username: staging_user
+    password: staging_password_456
+    port: 5432
+
+api_keys:
+  github_api_key_0: "github_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  github_api_key_1: "github_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  github_api_key_2: "github_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  gitlab_api_key_0: "gitlab_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  gitlab_api_key_1: "gitlab_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  gitlab_api_key_2: "gitlab_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  aws_api_key_0: "aws_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  aws_api_key_1: "aws_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  aws_api_key_2: "aws_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  azure_api_key_0: "azure_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  azure_api_key_1: "azure_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  azure_api_key_2: "azure_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  gcp_api_key_0: "gcp_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  gcp_api_key_1: "gcp_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  gcp_api_key_2: "gcp_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  stripe_api_key_0: "stripe_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  stripe_api_key_1: "stripe_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  stripe_api_key_2: "stripe_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  paypal_api_key_0: "paypal_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  paypal_api_key_1: "paypal_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  paypal_api_key_2: "paypal_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  twilio_api_key_0: "twilio_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  twilio_api_key_1: "twilio_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  twilio_api_key_2: "twilio_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  sendgrid_api_key_0: "sendgrid_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  sendgrid_api_key_1: "sendgrid_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  sendgrid_api_key_2: "sendgrid_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  slack_api_key_0: "slack_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  slack_api_key_1: "slack_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  slack_api_key_2: "slack_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  discord_api_key_0: "discord_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  discord_api_key_1: "discord_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  discord_api_key_2: "discord_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  telegram_api_key_0: "telegram_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  telegram_api_key_1: "telegram_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  telegram_api_key_2: "telegram_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  facebook_api_key_0: "facebook_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  facebook_api_key_1: "facebook_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  facebook_api_key_2: "facebook_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  google_api_key_0: "google_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  google_api_key_1: "google_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  google_api_key_2: "google_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  openai_api_key_0: "openai_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  openai_api_key_1: "openai_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  openai_api_key_2: "openai_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  anthropic_api_key_0: "anthropic_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  anthropic_api_key_1: "anthropic_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  anthropic_api_key_2: "anthropic_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  firebase_api_key_0: "firebase_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  firebase_api_key_1: "firebase_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  firebase_api_key_2: "firebase_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  mailgun_api_key_0: "mailgun_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  mailgun_api_key_1: "mailgun_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  mailgun_api_key_2: "mailgun_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  cloudflare_api_key_0: "cloudflare_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  cloudflare_api_key_1: "cloudflare_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  cloudflare_api_key_2: "cloudflare_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  datadog_api_key_0: "datadog_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  datadog_api_key_1: "datadog_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  datadog_api_key_2: "datadog_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  newrelic_api_key_0: "newrelic_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  newrelic_api_key_1: "newrelic_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  newrelic_api_key_2: "newrelic_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  sentry_api_key_0: "sentry_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  sentry_api_key_1: "sentry_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  sentry_api_key_2: "sentry_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  rollbar_api_key_0: "rollbar_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  rollbar_api_key_1: "rollbar_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  rollbar_api_key_2: "rollbar_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  mixpanel_api_key_0: "mixpanel_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  mixpanel_api_key_1: "mixpanel_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  mixpanel_api_key_2: "mixpanel_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+  amplitude_api_key_0: "amplitude_secret_key_000000_abcdefghijklmnopqrstuvwxyz"
+  amplitude_api_key_1: "amplitude_secret_key_000001_abcdefghijklmnopqrstuvwxyz"
+  amplitude_api_key_2: "amplitude_secret_key_000002_abcdefghijklmnopqrstuvwxyz"
+
+encryption:
+  jwt_secret: "super_secret_jwt_signing_key_do_not_expose"
+  session_secret: "session_encryption_key_very_secret"
+  cookie_secret: "cookie_signing_secret_key_private"
+
+external_services:
+  elasticsearch:
+    url: "https://elastic.example.com:9200"
+    username: "elastic"
+    password: "elastic_password_789"
+  redis:
+    url: "redis://redis.example.com:6379"
+    password: "redis_secret_password_abc"
+  mongodb:
+    uri: "mongodb://root:mongo_password_xyz@mongo.example.com:27017"
