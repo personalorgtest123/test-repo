@@ -1,5 +1,5 @@
 {
-  "name": "vulnerable-test-apep",
+  "name": "vulnerable-test-apep ",
   "version": "1.0.0",
   "description": "Test application with vulnerable dependencies",
   "main": "index.js",
