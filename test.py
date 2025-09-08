@@ -24,7 +24,7 @@ print(result)
 a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv                      
 a = ghp_I8xgXir38asdiV3Hartu9hRy1OadcR0uXfjv 
 
-    combined_data = {}
+    combined_data = {} 
     for file_path in file_paths:
         with open(file_path, 'r') as yaml_file:
             file_data = yaml.unsafe_load(yaml_file)
