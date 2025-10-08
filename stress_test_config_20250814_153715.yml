@@ -1,0 +1,34 @@
+# Configuration file with hardcoded secrets - 20 findings
+database:
+  production:
+    host: prod-db.example.com
+    username: admin
+    password: super_secret_prod_password_123  # 1 finding
+    port: 5432
+  staging:
+    host: staging-db.example.com
+    username: staging_user
+    password: staging_password_456  # 1 finding
+    port: 5432
+
+api_keys:
+  github_api_key: "github_secret_key_abcdefghijklmnopqrstuvwxyz"
+  gitlab_api_key: "gitlab_secret_key_abcdefghijklmnopqrstuvwxyz"
+  aws_api_key: "aws_secret_key_abcdefghijklmnopqrstuvwxyz"
+  stripe_api_key: "stripe_secret_key_abcdefghijklmnopqrstuvwxyz"
+  slack_api_key: "slack_secret_key_abcdefghijklmnopqrstuvwxyz"
+  discord_api_key: "discord_secret_key_abcdefghijklmnopqrstuvwxyz"
+  telegram_api_key: "telegram_secret_key_abcdefghijklmnopqrstuvwxyz"
+  google_api_key: "google_secret_key_abcdefghijklmnopqrstuvwxyz"
+  openai_api_key: "openai_secret_key_abcdefghijklmnopqrstuvwxyz"
+  firebase_api_key: "firebase_secret_key_abcdefghijklmnopqrstuvwxyz"
+  sendgrid_api_key: "sendgrid_secret_key_abcdefghijklmnopqrstuvwxyz"
+  twilio_api_key: "twilio_secret_key_abcdefghijklmnopqrstuvwxyz"
+  paypal_api_key: "paypal_secret_key_abcdefghijklmnopqrstuvwxyz"
+  mailgun_api_key: "mailgun_secret_key_abcdefghijklmnopqrstuvwxyz"
+  datadog_api_key: "datadog_secret_key_abcdefghijklmnopqrstuvwxyz"
+
+encryption:
+  jwt_secret: "super_secret_jwt_signing_key_do_not_expose"  # 1 finding
+  session_secret: "session_encryption_key_very_secret"  # 1 finding
+  cookie_secret: "cookie_signing_secret_key_private"  # 1 finding (total: 20 findings)
