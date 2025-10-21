@@ -1,0 +1,5 @@
+pr_agent_config:
+  config:
+    git_provider: github
+  jit:
+    tenant_id: a5f5f621-845c-4d7d-ac3d-fbe3c26cd3c3
