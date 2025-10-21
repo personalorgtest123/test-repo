@@ -9,7 +9,7 @@ def fetch_zip_files(url):
     os.system(command)  
   
 fetch_zip_files('http://example.com/archive.zip')      
-   
+    
   
 def load_multiple_yamls(*file_paths):  
     combined_data = {}    
