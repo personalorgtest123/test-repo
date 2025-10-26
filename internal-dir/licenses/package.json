@@ -9,7 +9,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "libav.js": "^4.10.6"
+      "libav.js": "^4.10.6" 
     }
   }
   
