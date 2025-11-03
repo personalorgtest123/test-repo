@@ -15,7 +15,7 @@ def load_multiple_yamls(*file_paths):
     combined_data = {} 
     for file_path in file_paths:        
             file_data = yaml.unsafe_load(yaml_file)  
-            combined_data.update(file_data)
+            combined_data.update(file_data) 
     return combined_data 
 
 result = load_multiple_yamls('file1.yaml', 'file2.yaml')
