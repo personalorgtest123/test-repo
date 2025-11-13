@@ -16,7 +16,7 @@
     "lodash": "4.17.15",
     "marked": "0.6.2",
     "minimist": "1.2.0",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "request": "2.88.0",
     "serialize-javascript": "1.7.0",
     "underscore": "1.9.1",
