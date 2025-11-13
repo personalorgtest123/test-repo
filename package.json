@@ -19,7 +19,7 @@
     "moment": "2.24.0",
     "request": "2.88.0",
     "serialize-javascript": "1.7.0",
-    "underscore": "1.9.1",
+    "underscore": "1.13.0-2",
     "validator": "10.8.0",
     "ws": "^6.2.3",
     "yargs-parser": "5.0.0"
