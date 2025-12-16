@@ -1,7 +1,7 @@
 {
     "name": "example-violating-project",
     "version": "1.0.0",
-    "description": "A project with dependencies that have licenses potentially violating certain compliance policies",
+    "description": "A project with dependencies that have licenses potentially violating certain compliance policies", 
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
